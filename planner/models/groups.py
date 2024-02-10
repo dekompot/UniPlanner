@@ -14,6 +14,7 @@ class WeekType(Enum):
     EVERY_WEEK = 1
     EVEN_WEEK = 2
     ODD_WEEK = 3
+    OTHER = 4
 
     def __str__(self):
         return f'{self.name}'
